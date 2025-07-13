@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <h2 className="font-weight-bold mb-5">Discover More Benefits</h2>
 
-          <div className="row align-items-center">
+          <div className="d-flex  main-box-content">
             <div className="col-md-6 mb-4">
               <div className="position-relative">
                 <img
@@ -20,66 +20,67 @@ const About = () => {
                   alt="Meeting"
                   className="img-fluid  shadow"
                 />
-                <div className="position-absolute bg-primary text-white p-4  shadow">
-                  <div className="d-flex align-items-center">
-                    <div className="bg-white text-primary rounded-circle px-3 py-2 font-weight-bold mr-3">
+
+                <div className="d-flex list-cart list-cart2  gap-4">
+                  <div>
+                    <div className=" rounded-circle2 rounded-circle text-white font-weight-bold mr-3 border">
                       02
                     </div>
-                    <div className="text-left">
-                      <h5 className="mb-1">Schedule a Meeting</h5>
-                      <p className="mb-0 small">
-                        Sed ut perspiciatis unde omnis natus error sit volup
-                        accusantium.
-                      </p>
-                    </div>
+                  </div>
+                  <div className="text-left  pr-3">
+                    <h5 className="mb-2">Schedule a Meeting</h5>
+                    <p className="mb-0 text-white">
+                      Sed ut perspiciatis unde omnis natus error sit volup
+                      accusantium.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-6">
-              <div className="mb-4 p-4 bg-primary text-white rounded shadow text-left">
-                <div className="d-flex align-items-center">
-                  <div className="bg-white text-primary rounded-circle px-3 py-2 font-weight-bold mr-3">
+            <div className="right-box">
+              <div className="d-flex list-cart gap-4 hover-card">
+                <div>
+                  <div className=" rounded-circle1 rounded-circle text-white  font-weight-bold mr-3 border">
                     01
                   </div>
-                  <div>
-                    <h5 className="mb-1">Make a Decision</h5>
-                    <p className="mb-0 small">
-                      Sed ut perspiciatis unde omnis natus error sit volup
-                      accusantium.
-                    </p>
-                  </div>
+                </div>
+                <div className="text-left  pr-3">
+                  <h5 className="mb-2">Make a Decision</h5>
+                  <p className="mb-0 ">
+                    Sed ut perspiciatis unde omnis natus error sit volup
+                    accusantium.
+                  </p>
                 </div>
               </div>
 
-              <div className="mb-4 p-4 bg-white rounded shadow text-left">
-                <div className="d-flex align-items-center">
-                  <div className="bg-primary text-white rounded-circle px-3 py-2 font-weight-bold mr-3">
+              <div className="d-flex list-cart list-cart-3  gap-4 hover-card">
+                <div>
+                  <div className="rounded-circle3  rounded-circle text-white font-weight-bold mr-3 border">
                     03
                   </div>
-                  <div>
-                    <h5 className="mb-1">Decision Analysis</h5>
-                    <p className="mb-0 small">
-                      Sed ut perspiciatis unde omnis natus error sit volup
-                      accusantium.
-                    </p>
-                  </div>
+                </div>
+                <div className="text-left  pr-3">
+                  <h5 className="mb-2">Decision Analysis</h5>
+                  <p className="mb-0 ">
+                    Sed ut perspiciatis unde omnis natus error sit volup
+                    accusantium.
+                  </p>
                 </div>
               </div>
 
-              <div className="p-4 bg-white rounded shadow text-left">
-                <div className="d-flex align-items-center">
-                  <div className="bg-primary text-white rounded-circle px-3 py-2 font-weight-bold mr-3">
+              <div className="d-flex list-cart gap-4 hover-card  ">
+                <div>
+                  <div className="rounded-circle3  rounded-circle text-white font-weight-bold mr-3 border">
                     04
                   </div>
-                  <div>
-                    <h5 className="mb-1">Transformation Completed</h5>
-                    <p className="mb-0 small">
-                      Sed ut perspiciatis unde omnis natus error sit volup
-                      accusantium.
-                    </p>
-                  </div>
+                </div>
+                <div className="text-left pr-3">
+                  <h5 className="mb-2">Transformation Completed</h5>
+                  <p className="mb-0">
+                    Sed ut perspiciatis unde omnis natus error sit volup
+                    accusantium.
+                  </p>
                 </div>
               </div>
             </div>

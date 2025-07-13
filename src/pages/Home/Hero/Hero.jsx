@@ -16,7 +16,7 @@ const Hero = () => {
               We’ve Experience Team <br /> Become an Instructor
             </h2>
 
-            <p className="text-muted mb-4">
+            <p className="text-muted mb-5">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
 
             {/* feature bullets */}
-            <div className="row mb-4">
+            <div className="row mb-5">
               <div className="col-sm-6 d-flex gap-3">
                 <FaCheckCircle className="text-primary mr-3 mt-1" size={30} />
                 <div>

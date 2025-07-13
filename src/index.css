@@ -7,7 +7,7 @@
 }
 /* ====================> cantainer content <==================== */
 .container_content {
-  max-width: 1100px;
+  max-width: 1150px;
   margin: auto;
 }
 
@@ -85,7 +85,7 @@
   background-size: cover;
   background-position: left;
   padding-top: 100px;
-  padding-bottom: 500px;
+  padding-bottom: 560px;
 }
 .experience-section h2 {
   font-weight: bold;
@@ -94,8 +94,8 @@
 
 .title-box {
   position: absolute;
-  top: 0;
-  left: 28px;
+  top: -10px;
+  left: 24px;
   z-index: 10;
   color: #1e28451a;
   font-weight: 800;
@@ -109,10 +109,10 @@
 
 /* big left image */
 .main-img-wrapper {
-  width: 250px;
-  height: 330px;
+  width: 270px;
+  height: 350px;
   position: relative;
-  top: 84px;
+  top: 80px;
   left: 30px;
 }
 .main-img-wrapper img {
@@ -127,7 +127,7 @@
 .small-img2 {
   width: 40%;
   position: absolute;
-  bottom: -140px;
+  bottom: -175px;
   right: 0;
 }
 
@@ -148,11 +148,11 @@
 /* years badge */
 .years-badge {
   position: absolute;
-  bottom: -116px;
+  bottom: -130px;
   left: 40%;
   transform: translateX(-50%);
   background: #1784ff;
-  padding: 20px 35px;
+  padding: 20px 45px;
   text-align: center;
 }
 .years-badge h3 {
@@ -187,6 +187,10 @@
   margin-top: -450px;
 }
 
+.main-box-content {
+  gap: 60px;
+}
+
 .content-section .menu-derection p {
   color: #14c88c;
   font-size: 20px;
@@ -202,6 +206,87 @@
 .content-section h2 {
   font-size: 42px;
   font-weight: bold;
+}
+
+.list-cart {
+  color: white;
+  box-shadow: 0px 0px 20px 0 rgba(30, 40, 69, 0.07);
+  padding: 35px 40px 30px;
+  text-align: left;
+  border-radius: 5px;
+}
+.list-cart p {
+  color: #808080cf;
+}
+
+.list-cart2 {
+  width: 450px;
+  background: #2682f9;
+  position: absolute;
+  top: 170px;
+  right: -60px;
+}
+
+.list-cart-3 {
+  position: relative;
+  left: 30px;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.rounded-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rounded-circle2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.rounded-circle1,
+.rounded-circle3,
+.rounded-circle4 {
+  background: #2682f9;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.hover-card {
+  background-color: #fff;
+  color: #000;
+  background-image: linear-gradient(to right, #2682f9 0%, #2682f9 100%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-size 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.hover-card:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+.hover-card:hover p {
+  color: #fff;
+}
+
+/* Optional: number circle style */
+.rounded-circle4 {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* =====================> countDown-container  <================= */
