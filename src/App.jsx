@@ -6,6 +6,8 @@ import Hero from "./pages/Home/Hero/Hero";
 import About from "./pages/Home/About/about";
 import CountDown from "./pages/Home/CountDown/CountDown";
 import RoleConditions from "./pages/Home/RoleConditions/RoleConditions";
+import CardPage from "./pages/Home/CardPage/CardPage";
+import Notifiction from "./pages/Home/Notifiction/Notifiction";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <About />
       <CountDown />
       <RoleConditions />
+      <CardPage />
+      <Notifiction />
     </div>
   );
 }
