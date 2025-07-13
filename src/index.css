@@ -290,6 +290,19 @@
 }
 
 /* =====================> countDown-container  <================= */
-.countDown-container {
-  margin-top: 200px;
+.count-box {
+  text-align: left;
+}
+
+.count-box .icon-img {
+  width: 60px;
+}
+.count-box h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.count-box p {
+  color: #14c88c;
+  font-size: 18px;
+  font-weight: 500;
 }
