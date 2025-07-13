@@ -5,6 +5,7 @@ import Bnner from "./pages/Home/Banner/Bnner";
 import Hero from "./pages/Home/Hero/Hero";
 import About from "./pages/Home/About/about";
 import CountDown from "./pages/Home/CountDown/CountDown";
+import RoleConditions from "./pages/Home/RoleConditions/RoleConditions";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <CountDown />
+      <RoleConditions />
     </div>
   );
 }
