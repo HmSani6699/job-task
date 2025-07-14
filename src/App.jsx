@@ -16,8 +16,8 @@ function App() {
       {/* <Navber />
       <Bnner />
       <Hero />
-      <About />
-      <CountDown />*/}
+      <About />*/}
+      <CountDown />
       <RoleConditions />
       <CardPage />
       <Notifiction />

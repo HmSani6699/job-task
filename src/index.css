@@ -311,6 +311,13 @@
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .countDown-container {
+    margin: 15px;
+    padding-bottom: 50px;
+  }
+}
+
 /* ==============> Role conditions  <================= */
 .role-container {
   background-image: url("/roleshape.png");
