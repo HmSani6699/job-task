@@ -13,10 +13,10 @@ import Footer from "./pages/Footer/Footer";
 function App() {
   return (
     <div>
-      {/* <Navber />
+      <Navber />
       <Bnner />
       <Hero />
-      <About />*/}
+      <About />
       <CountDown />
       <RoleConditions />
       <CardPage />

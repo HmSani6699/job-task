@@ -47,11 +47,52 @@
   margin-left: 35px;
   font-size: 18px;
 }
+.fa-facebook-f,
+.fa-pinterest-p,
+.fa-instagram {
+  color: rgba(184, 182, 182, 0.683);
+}
+
+.mobile-menu {
+  display: none;
+}
+.time-zone-box {
+  display: flex;
+}
 
 /* optional: nice spacing on desktop menu items */
-@media (min-width: 992px) {
+@media (max-width: 768px) {
+  .navber-from {
+    display: none;
+  }
+
+  .navber_container .navbar-light {
+    padding: 15px;
+  }
+
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
+  }
+
+  .mobile-menu {
+    display: flex;
+    gap: 10px;
+  }
+  .mobile-menu .fa-bars,
+  .mobile-menu .fa-search,
+  .mobile-menu .fa-shopping-cart {
+    font-size: 20px;
+  }
+
+  .time-zone-box {
+    display: none;
+  }
+
+  .navber_container .top-bar {
+    padding-bottom: 10px;
+  }
+  .navber_container .top-bar ul {
+    margin-left: auto;
   }
 }
 
@@ -75,6 +116,15 @@
 .banner_container p {
   font-size: 18px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .banner_container {
+    height: 230px;
+  }
+  .banner_container h2 {
+    font-size: 28px;
+  }
 }
 
 /* -=========================> hero section  <========================== */
@@ -131,20 +181,6 @@
   right: 0;
 }
 
-/* on ≥992 px push small images to the right edge */
-@media (min-width: 992px) {
-  .small-img {
-    position: absolute;
-    right: 0;
-  }
-  .small-top {
-    top: 0;
-  }
-  .small-bottom {
-    bottom: 0;
-  }
-}
-
 /* years badge */
 .years-badge {
   position: absolute;
@@ -173,12 +209,33 @@
   padding: 10px 20px;
 }
 
-/* responsive tweaks */
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
+  .experience-section {
+    margin-top: 70px;
+  }
+  .experience-section {
+    padding: 0 15px;
+  }
+  .main-img-wrapper {
+    left: 0;
+  }
+  .main-img-wrapper img {
+    width: 200px;
+    height: 255px;
+  }
+  .small-img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .small-img2 {
+    bottom: -18px;
+  }
   .years-badge {
-    position: static;
-    transform: none;
-    margin-top: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 195px;
+    padding: 37px 53px;
   }
 }
 
@@ -188,6 +245,7 @@
 }
 
 .main-box-content {
+  display: flex;
   gap: 60px;
 }
 
@@ -287,6 +345,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .content-section {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .content-section h2 {
+    font-size: 28px;
+  }
+  .main-box-content {
+    display: block;
+  }
+  .main-box-content .list-cart2 {
+    width: 92%;
+    right: 10px;
+    left: 15px;
+    top: 95px;
+  }
+  .main-box-content .list-cart-3 {
+    left: 0;
+  }
 }
 
 /* =====================> countDown-container  <================= */
@@ -554,10 +634,7 @@
   .features {
     padding: 10px 0;
   }
-  .container {
-    flex-direction: column;
-    padding: 20px;
-  }
+
   .right {
     padding: 20px 0;
   }

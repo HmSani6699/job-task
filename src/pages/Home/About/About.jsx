@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <h2 className="font-weight-bold mb-5">Discover More Benefits</h2>
 
-          <div className="d-flex  main-box-content">
+          <div className=" main-box-content">
             <div className="col-md-6 mb-4">
               <div className="position-relative">
                 <img

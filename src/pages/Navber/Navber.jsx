@@ -6,10 +6,10 @@ const Navber = () => {
     <div className="navber_container">
       {/* ---------- TOP BAR ---------- */}
       <div className="top-bar  text-white ">
-        <div className="container d-flex flex-wrap justify-content-between pt-2">
+        <div className="container_content d-flex flex-wrap justify-content-between pt-2">
           {/* Left: office hours */}
 
-          <div className="d-flex align-items-center gap-2">
+          <div className=" align-items-center gap-2 time-zone-box">
             <p>
               <FaRegClock />
             </p>
@@ -78,8 +78,14 @@ const Navber = () => {
           width={165} /* exact width you wanted */
           className="img-fluid"
         />
-        <form className="form-inline">
-          {" "}
+
+        <div className="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+          <i className="fas fa-search" />
+          <i className="fas fa-shopping-cart" />
+        </div>
+
+        <form className="form-inline navber-from">
           <ul className="d-flex align-items-center">
             {/* --- Plain link --- */}
             <li className="nav-item dropdown">
