@@ -93,6 +93,7 @@
   }
   .navber_container .top-bar ul {
     margin-left: auto;
+    padding-right: 15px;
   }
 }
 
@@ -215,6 +216,9 @@
   }
   .experience-section {
     padding: 0 15px;
+  }
+  .experience-section h2 {
+    font-size: 28px;
   }
   .main-img-wrapper {
     left: 0;
@@ -592,13 +596,17 @@
 .subscribe {
   display: flex;
   max-width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 10px;
 }
 
 .subscribe input {
   flex: 1;
   padding: 15px;
   border: 1px solid #cbd5e1;
-  border-radius: 8px 0 0 8px;
+  border-radius: 8px;
   font-size: 16px;
   outline: none;
 }
@@ -608,7 +616,7 @@
   color: white;
   border: none;
   padding: 15px 25px;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -640,6 +648,14 @@
   }
   .cart-container {
     margin: 60px 0px;
+  }
+  .subscribe {
+    display: block;
+  }
+
+  .subscribe input {
+    margin-bottom: 10px;
+    width: 100%;
   }
 }
 
