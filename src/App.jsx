@@ -19,8 +19,8 @@ function App() {
       <About />
       <CountDown />
       <RoleConditions />
-      <CardPage />
-      <Notifiction /> */}
+      <CardPage />*/}
+      <Notifiction />
       <Footer />
     </div>
   );
