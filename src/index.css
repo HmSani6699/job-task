@@ -391,18 +391,21 @@
   align-items: center;
   background-color: #fff;
   border-radius: 16px;
-  padding: 40px;
   margin: 60px auto;
   max-width: 1200px;
+  background-image: url("/laye.png");
+  background-size: cover;
+  background-position: right;
 }
 .left {
   flex: 1;
-  padding: 20px;
   position: relative;
 }
 .left img {
   width: 100%;
   border-radius: 12px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .play-button {
   position: absolute;
@@ -436,6 +439,13 @@
   font-size: 36px;
   margin: 0 0 20px;
   color: #1e293b;
+  font-weight: bold;
+}
+
+.right .drow-img {
+  position: relative;
+  left: 20px;
+  top: -18px;
 }
 
 .features {

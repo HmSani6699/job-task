@@ -1,8 +1,9 @@
 import img from "../../../../public/notifiction.jpg";
+import drow from "../../../../public/about-drow.png";
 
 const Notifiction = () => {
   return (
-    <div>
+    <div className="container_content">
       <div class="notifiction-container">
         <div class="left">
           <img src={img} alt="Newsletter Promo" />
@@ -10,6 +11,7 @@ const Notifiction = () => {
         </div>
         <div class="right">
           <h4>Newsletters</h4>
+          <img className="drow-img" src={drow} alt="" />
           <h1>Get Our Every Single Notifications</h1>
           <div class="features">
             <span>Regular Updates</span>
