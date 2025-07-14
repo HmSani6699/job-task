@@ -500,6 +500,16 @@
   .br-class {
     display: none;
   }
+  .tow-button-box {
+    display: flex;
+  }
+  .tow-button-box .button_color {
+    display: flex;
+    padding: 10px;
+  }
+  .role-container .main-box .role-left-box .work-button {
+    margin-left: 0;
+  }
 }
 
 /* ==============> Cart container <================= */
@@ -656,6 +666,13 @@
   .subscribe input {
     margin-bottom: 10px;
     width: 100%;
+  }
+
+  .features {
+    gap: 8px;
+  }
+  .features span {
+    font-size: 15px;
   }
 }
 
@@ -937,7 +954,7 @@
   }
 
   .footer-bottom p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .footer-links {

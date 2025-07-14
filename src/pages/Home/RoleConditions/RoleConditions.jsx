@@ -40,7 +40,7 @@ const RoleConditions = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="tow-button-box">
             <a href="#become" className="btn button_color btn-lg  ">
               Learn More Us <i className="fas fa-arrow-right ml-2" />
             </a>
