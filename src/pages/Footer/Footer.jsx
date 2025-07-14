@@ -49,70 +49,80 @@ const Footer = () => {
       {/* ========> Middle part <========== */}
       <footer class="footer container_content">
         <div class="footer-top">
-          <div class="footer-section">
-            <div class="video-thumbnail">
-              <img src={footer_img} alt="Video thumbnail" />
-              <div class="play-button">▶</div>
-            </div>
-            <div class="social">
-              <p>Follow on</p>
-              <div class="icons">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-x-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-pinterest"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
+          <div className="footer-left">
+            <div class="footer-section">
+              <div class="video-thumbnail">
+                <img src={footer_img} alt="Video thumbnail" />
+                <div class="play-button2">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="social d-flex gap-4">
+                <p>Follow on</p>
+                <div class="icons">
+                  <a href="#" className="social-icon-box">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" className="social-icon-box">
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                  <a href="#" className="social-icon-box">
+                    <i class="fab fa-pinterest"></i>
+                  </a>
+                  <a href="#" className="social-icon-box">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="footer-section">
-            <h3>Courses</h3>
-            <ul>
-              <li>Art & Design</li>
-              <li>Business</li>
-              <li>Marketing</li>
-              <li>Web Design</li>
-              <li>Photography</li>
-            </ul>
-          </div>
-
-          <div class="footer-section">
-            <h3>Resources</h3>
-            <ul>
-              <li>About</li>
-              <li>Our Team</li>
-              <li>Instructor</li>
-              <li>Gallery</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-
-          <div class="footer-section news">
-            <h3>Recent News</h3>
-            <div class="news-item">
-              <img src={footer2} alt="News 1" />
-              <div>
-                <p>
-                  <i class="fas fa-comment"></i> 0 Comments
-                </p>
-                <h4>What is data analytics and its future scope</h4>
-              </div>
+            <div class="footer-section">
+              <h3>Courses</h3>
+              <ul>
+                <li>Art & Design</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Web Design</li>
+                <li>Photography</li>
+              </ul>
             </div>
-            <div class="news-item">
-              <img src={footer1} alt="News 2" />
-              <div>
-                <p>
-                  <i class="fas fa-comment"></i> 0 Comments
-                </p>
-                <h4>How to build a data analyst best portfolio</h4>
+          </div>
+
+          <div className="footer-right">
+            <div class="footer-section">
+              <h3>Resources</h3>
+              <ul>
+                <li>About</li>
+                <li>Our Team</li>
+                <li>Instructor</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+
+            <div class="footer-section news">
+              <h3>Recent News</h3>
+              <div class="news-item">
+                <img src={footer2} alt="News 1" />
+                <div>
+                  <p>
+                    <i class="fa-regular fa-comments"></i> 0 Comments
+                  </p>
+                  <h4>
+                    What is data analytics and its <br /> future scope
+                  </h4>
+                </div>
+              </div>
+              <div class="news-item">
+                <img src={footer1} alt="News 2" />
+                <div>
+                  <p className="mb-0">
+                    <i class="fa-regular fa-comments"></i> 0 Comments
+                  </p>
+                  <h4>
+                    How to build a data analyst <br /> best portfolio
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
