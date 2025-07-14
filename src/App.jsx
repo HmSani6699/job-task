@@ -8,6 +8,7 @@ import CountDown from "./pages/Home/CountDown/CountDown";
 import RoleConditions from "./pages/Home/RoleConditions/RoleConditions";
 import CardPage from "./pages/Home/CardPage/CardPage";
 import Notifiction from "./pages/Home/Notifiction/Notifiction";
+import Footer from "./pages/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <RoleConditions />
       <CardPage />
       <Notifiction />
+      <Footer />
     </div>
   );
 }
