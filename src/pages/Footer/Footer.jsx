@@ -8,11 +8,13 @@ const Footer = () => {
       <div className="container_content">
         <div class="contact-container">
           <div class="contact-box">
-            <div class="icon-circle">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/marker.png"
-                alt="Address Icon"
-              />
+            <div className="icon-circel-box">
+              <div class="icon-circle">
+                <img
+                  src="https://img.icons8.com/ios-filled/50/000000/marker.png"
+                  alt="Address Icon"
+                />
+              </div>
             </div>
             <div class="contact-info">
               <h4>Office Address</h4>
@@ -20,24 +22,31 @@ const Footer = () => {
             </div>
           </div>
           <div class="contact-box">
-            <div class="icon-circle">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/new-post.png"
-                alt="Email Icon"
-              />
+            <div className="icon-circel-box">
+              <div class="icon-circle">
+                <img
+                  src="https://img.icons8.com/ios-filled/50/000000/new-post.png"
+                  alt="Email Icon"
+                />
+              </div>
             </div>
+
             <div class="contact-info">
               <h4>Send Email</h4>
               <p>contact@example.com</p>
             </div>
           </div>
           <div class="contact-box">
-            <div class="icon-circle">
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/phone.png"
-                alt="Phone Icon"
-              />
+            <div className="icon-circel-box">
+              {" "}
+              <div class="icon-circle">
+                <img
+                  src="https://img.icons8.com/ios-filled/50/000000/phone.png"
+                  alt="Phone Icon"
+                />
+              </div>
             </div>
+
             <div class="contact-info">
               <h4>Call Emergency</h4>
               <p>+88 0123 654 99</p>
@@ -51,7 +60,7 @@ const Footer = () => {
         <div class="footer-top">
           <div className="footer-left">
             <div class="footer-section">
-              <div class="video-thumbnail">
+              <div className="video-thumbnail">
                 <img src={footer_img} alt="Video thumbnail" />
                 <div class="play-button2">
                   <i class="fa-solid fa-play"></i>
