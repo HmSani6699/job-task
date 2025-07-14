@@ -21,7 +21,8 @@ const RoleConditions = () => {
             <div>
               <h2 className="sub-title"> Become an Instructor</h2>
               <p className="description">
-                Amet consectetur adipiscing sed eius tempore dolore <br />{" "}
+                Amet consectetur adipiscing sed eius tempore dolore{" "}
+                <br className="br-class" />
                 suspens omnis natus.
               </p>
             </div>
@@ -33,7 +34,8 @@ const RoleConditions = () => {
             <div>
               <h2 className="sub-title">Instructor Rules</h2>
               <p className="description">
-                Amet consectetur adipiscing sed eius tempore dolore <br />{" "}
+                Amet consectetur adipiscing sed eius tempore dolore{" "}
+                <br className="br-class" />
                 suspens omnis natus.
               </p>
             </div>
@@ -49,8 +51,8 @@ const RoleConditions = () => {
         </div>
         {/* ========== Right +========== */}
         <div className="role-right-box">
-          <div>
-            <img className="border" src={man_img} alt="" />
+          <div className="frist-img">
+            <img className="" src={man_img} alt="" />
           </div>
           <div className="middle-role-img">
             <img src={top_img} alt="" />

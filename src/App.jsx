@@ -17,9 +17,9 @@ function App() {
       <Bnner />
       <Hero />
       <About />
-      <CountDown />
+      <CountDown />*/}
       <RoleConditions />
-      <CardPage />*/}
+      <CardPage />
       <Notifiction />
       <Footer />
     </div>
